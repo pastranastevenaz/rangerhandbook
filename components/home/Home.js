@@ -3,7 +3,8 @@ import {
   Text,
   View,
   StyleSheet,
-  ScrollView
+  ScrollView,
+  Image
 } from 'react-native';
 import {
   Button
@@ -16,9 +17,14 @@ export default class Home extends Component {
   render(){
     return(
       <View style={styles.container}>
-        <ScrollView style={styles.homeContainer}>
-          <Text>
-            Hello from Home.js
+        <ScrollView style={styles.contentContainer}>
+          <Image source={require('../../resources/rangerSmall.png')} style={styles.homeRanger}></Image>
+          <Text style={styles.homeTitle}>
+            Handbook
+          </Text>
+          <Image source={require('../../resources/soldierSmall2.png')} style={styles.homeSoldier}></Image>
+          <Text style={styles.homeTitle2}>
+            Rangers Lead The Way!
           </Text>
         </ScrollView>
         <View style={styles.footer}>

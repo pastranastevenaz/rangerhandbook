@@ -8,13 +8,17 @@ var styles = StyleSheet.create({
   //   Container styles   //
   //////////////////////////
   container: {
-    backgroundColor: '#d8d8d8',
+    backgroundColor: '#1f1f1f',
     flex: 1,
     justifyContent: 'space-between',
     marginTop: 55
   },
   homeContainer : {
     flexGrow: 22,
+  },
+  contentContainer: {
+    marginLeft: 10,
+    marginRight: 10
   },
   ///////////////////////
   //   Footer styles   //
@@ -56,10 +60,43 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     color: '#d1d1d1'
   },
+  subtitle: {
+    fontSize: 20,
+    textAlign: 'center',
+    color: '#d1d1d1'
+  },
   firstLetter: {
     fontSize: 20,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    color: '#e8e7e1'
   },
+  content: {
+    color: '#e8e7e1'
+  },
+  homeTitle: {
+    color: '#d6cc1d',
+    textAlign: 'center',
+    fontSize: 28,
+    marginBottom: 30,
+    marginTop: -20
+  },
+  homeTitle2: {
+    color: '#d6cc1d',
+    textAlign: 'center',
+    fontSize: 24,
+    marginTop: -5
+  },
+  ////////////////////
+  // Image Styles   //
+  ////////////////////
+  homeSoldier: {
+    alignSelf: 'center',
+    marginTop: -18
+  },
+  homeRanger: {
+    alignSelf: 'center',
+    marginTop: 10
+  }
 })
 
 module.exports = styles;

@@ -18,7 +18,7 @@ export default class Navigation extends Component {
       <ScrollView>
         <List>
           <ListItem onPress={Actions.RangersCreed}><Text>Rangers Creed</Text></ListItem>
-          <ListItem><Text>2</Text></ListItem>
+          <ListItem onPress={Actions.Orders}><Text>2</Text></ListItem>
           <ListItem><Text>3</Text></ListItem>
           <ListItem><Text>4</Text></ListItem>
           <ListItem><Text>5</Text></ListItem>
