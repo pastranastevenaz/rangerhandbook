@@ -19,7 +19,7 @@ export default class Navigation extends Component {
         <List>
           <ListItem onPress={Actions.RangersCreed}><Text>Rangers Creed</Text></ListItem>
           <ListItem onPress={Actions.Orders}><Text>2</Text></ListItem>
-          <ListItem><Text>3</Text></ListItem>
+          <ListItem onPress={Actions.History}><Text>3</Text></ListItem>
           <ListItem><Text>4</Text></ListItem>
           <ListItem><Text>5</Text></ListItem>
           <ListItem><Text>6</Text></ListItem>

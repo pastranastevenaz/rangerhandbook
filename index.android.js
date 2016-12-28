@@ -15,6 +15,7 @@ import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 import RangersCreed from './components/rangersCreed/RangersCreed';
 import Orders from './components/orders/Orders';
+import History from './components/history/History';
 
 const styles = require('./styles/MainStyles.js');
 
@@ -47,6 +48,7 @@ export default class rangerHandbook extends Component {
                 <Scene key="Home" component={Home} title="Ranger handbook" initial={true} />
                 <Scene key="RangersCreed" component={RangersCreed} title="Rangers Creed" />
                 <Scene key="Orders" component={Orders} title="Orders" />
+                <Scene key="History" component={History} title="Ranger History" />
               </Scene>
             </Router>
         </Drawer>

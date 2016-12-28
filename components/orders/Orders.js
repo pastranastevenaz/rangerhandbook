@@ -54,7 +54,7 @@ export default class Orders extends Component {
             small
             buttonStyle={styles.footerButtons}
             iconRight
-            onPress={console.log("NextPage")}
+            onPress={Actions.History}
             icon={{name: 'keyboard-arrow-right'}}
             title='      Next    ' />
           </View>
